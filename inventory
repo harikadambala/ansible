@@ -1,9 +1,27 @@
 192.187.56.20
 192.187.56.30
 
+[localhost]
+localhost
+
+[localhost:vars]
+Course="DevOps From inventory"
+Trainer="Sivakumar"
+Duration="110HRS"
+PERSON="Siva from inventory"
+WISHES="Morning from inventory"
+
 [web]
-192.187.56.3
-192.187.56.4
+54.235.14.240
+86.55.68.577
+
+[web:vars]
+Course="DevOps From inventory"
+Trainer="Sivakumar"
+Duration="110HRS"
+PERSON="Siva from inventory"
+WISHES="Morning from inventory"
+
 [catalogue]
 192.187.56.5
 192.187.56.6
