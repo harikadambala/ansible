@@ -12,7 +12,7 @@
 ; WISHES="Morning from inventory"
 
 [web]
-54.235.14.240
+192.187.56.3
 
 ; [web:vars]
 ; Course="DevOps From inventory"
