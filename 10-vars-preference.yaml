@@ -30,8 +30,8 @@
 #7. roles
 - name: variables from PLAY level
   hosts: localhost
-  # vars_files:
-  #  - variables.yaml
+  vars_files:
+   - variables.yaml
   # vars_prompt:
   # - name: PERSON
   #   prompt: Please enter your name
