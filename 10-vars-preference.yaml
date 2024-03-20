@@ -28,8 +28,8 @@
 #5. play
 #6. inventory
 #7. roles
-- name: variables from PLAY level
-  hosts: localhost
+# - name: variables from PLAY level
+#   hosts: localhost
   # vars_files:
   #  - variables.yaml
   # vars_prompt:
@@ -42,13 +42,19 @@
   # vars:
   #   PERSON: "Siva from PLAY"
   #   WISHES: "Morning from PLAY"
-  tasks:
-  - name: check variables
+  # tasks:
+  # - name: check variables
   #   vars:
   #     PERSON: "Siva from TASK"
   #     WISHES: "Morning from TASK"
+    # ansible.builtin.debug:
+    #   msg: "Hello {{PERSON}}, Good {{WISHES}}" 
+      - name: variables from PLAY level
+  hosts: localhost
+  tasks:
+  - name: check variables
     ansible.builtin.debug:
-      msg: "Hello {{PERSON}}, Good {{WISHES}}" 
+      msg: "person name {{PERSON}}, Wishes {{WISHES}}"
 
 
   
