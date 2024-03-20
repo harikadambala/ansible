@@ -47,5 +47,5 @@
   #   vars:
   #     PERSON: "Siva from TASK"
   #     WISHES: "Morning from TASK"
-  #   ansible.builtin.debug:
-  #     msg: "Hello {{PERSON}}, Good {{WISHES}}" 
+    ansible.builtin.debug:
+      msg: "Hello {{PERSON}}, Good {{WISHES}}" 
