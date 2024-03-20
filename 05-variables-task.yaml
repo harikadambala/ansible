@@ -10,6 +10,7 @@
     vars: #task level
       Course: "jenkins"
       Trainer: "harikrishna"
+      Duration: "140hrs"
       
     ansible.builtin.debug:
       msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
