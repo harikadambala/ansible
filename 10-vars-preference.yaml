@@ -32,7 +32,7 @@
   hosts: localhost
   vars_files:
   - variables.yaml
-    vars_prompt:
+  vars_prompt:
   - name: PERSON
     prompt: Please enter your name
     private: false # user can see what they are entering
